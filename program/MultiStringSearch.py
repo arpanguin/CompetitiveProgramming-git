@@ -38,5 +38,5 @@ class Tries:
 
 
 bigString = "abcdefghijklmnopqrstuvwxyz"
-smallStrings = ["abc", "mnopqr", "wyz", "no", "e", "tuuv"]
+smallStrings = ["abc", "abcdef", "mnopqr", "wyz", "no", "e", "tuuv"]
 print(multiStringSearch(bigString, smallStrings))
