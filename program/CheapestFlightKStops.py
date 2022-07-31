@@ -1,9 +1,9 @@
-
-
 class Solution:
+    """
+    LeetCode 787 : Cheapest Flights Within K Stops
+    """
+
     def findCheapestPrice(self, n, flights, src, dst, k):
-        # We use two arrays for storing distances and keep swapping
-        # between them to save on the memory
         prices = [float("inf")] * n
         prices[src] = 0
 
